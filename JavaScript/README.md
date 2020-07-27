@@ -6,3 +6,7 @@
 #### 5. [看 Code 題目](https://github.com/fffreestyle/web-interview-questions/blob/master/JavaScript/%E7%9C%8B%20Code%20%E9%A1%8C%E7%9B%AE)
 #### 6. 請解釋什麼是 side effect
 執行一個 function 的時候會影響到外部 scope 的值。
+#### 7. CORS 是什麼
+是一種 HTTP header，必須包含 CORS 才可以進行跨領域請求
+#### 9. 請解釋 dom 的事件傳遞
+#### 10. 請解釋 closure 是什麼
