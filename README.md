@@ -7,3 +7,5 @@
 [前端工程師面試問題集](https://h5bp.org/Front-end-Developer-Interview-Questions/translations/chinese-traditional/#network-questions)
 
 [2020 資深前端工程師面試心得（4y, 100k+）](https://medium.com/@hulitw/2020-senior-front-end-engineer-interview-249c719c1a97)
+
+[面试官，不要再问我三次握手和四次挥手](https://juejin.im/post/5d9c284b518825095879e7a5)
