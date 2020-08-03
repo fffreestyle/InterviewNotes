@@ -27,3 +27,5 @@
 [HTTPS/SSL/TLS 概述，整體流程、憑證、數位簽章](https://ithelp.ithome.com.tw/articles/10193095)
 
 [1- Https流程和原理](https://www.jianshu.com/p/b0b6b88fe9fe)
+
+[讓我們來談談 CSRF](https://blog.techbridge.cc/2017/02/25/csrf-introduction/)

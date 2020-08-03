@@ -82,3 +82,5 @@ e.preventDefault 為取消瀏覽器的預設行為(如點擊超連結不開新�
 盡頭為 Object.prototype
 
 A.__proto__ 指向 A 的 parent
+
+

@@ -10,4 +10,14 @@ translate 為根據他本身的 width 去計算
 
 #### 3. stack context
 
-指 CSS 中 z-index 的元素堆疊
+指 CSS 中 z-index 的元素堆疊模式類似圖層堆疊
+
+#### 4. position 
+
+static 為預設，瀏覽器自動排列
+
+relative 可以設定 top, left, right, bottom 等屬性根據其他元素位置做定位不會影響到其他元素的空間
+
+fixed 會根據瀏覽器畫面做定位
+
+absolute 根據上層容器做定位，但 static 為例外

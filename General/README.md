@@ -86,3 +86,21 @@ parse HTML 產生 DOM tree ，遇到 \<script\> 會停下並開始下載、解�
     驗證方法：1. 此憑證為可信任的機構發行 2. 此憑證是被可信任的機構所認可(使用數位簽章的方式認證)
 3. 認證成功之後做 key 的交換，之後以對稱方式加密通訊
 
+#### 13. CSRF(Cross-site request forgery)
+
+在不同的 domain 底下卻發出使用者本人的 requst
+
+#### 14. XSS (Cross-Site Scripting)
+
+Stored XSS (儲存型) : 資料庫儲存的內容包含可執行的 js 語法
+
+Reflected XSS (反射型) : 網頁上的輸入包含可執行的 js 語法
+
+DOM-Based XSS : JS 執行中可以被插入 js 語法
+
+防範方法 : 
+
+Stored XSS, Reflected XSS 過濾特殊字元
+
+DOM-Based : 避免使用如 dom.innerHTML 之類的會將結果以 HTML 的方式顯示的寫法
+
