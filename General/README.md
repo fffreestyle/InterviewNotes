@@ -47,3 +47,31 @@ SYN 攻擊：發送大量第一次握手的要求，並且不回復第三次握�
 
 等待 2 MSL 的意義：確保第四次揮手的訊息有傳給 Server 端，並確保沒有 Server 重傳訊息回來
 
+#### 8. 對稱加密與非對稱加密
+
+對稱性加密：使用共同的 key 加密，key 在傳輸過程中被攔截很容易就被破解(AES)
+
+非對稱加密：有 public key 和 private key 使用 public key 加密 private key 解密(反過來亦可)(RSA)
+
+簽章訊息：用來確定為本人傳送，將訊息本身 hash 之後再用他的 private key 加密，接收者收到後先用 public key 解出此 hash 再自己計算收到的訊息 hash 比對是否相同，以此證明
+
+#### 9. http cache
+
+http 1.1 : 新 header Cache-Control: max-age=30
+
+max-age=30 表示這個 request 的有效期限為 30 秒
+
+max-age=0 ≒ no-cache 為每次發送 request 的時候去確認是否有新檔案，如果沒有則繼續使用 cache 資料
+
+no-store 為完全不使用 cache 每次 request 都重新取得檔案
+
+#### 10. browser render process
+
+parse HTML 產生 DOM tree ，遇到 \<script\> 會停下並開始下載、解析執行內容，之後開始 parse CSS 產生 render tree 再實際繪製畫面
+
+#### 11. 優化 SEO 
+
+找出關鍵字，優化網頁效能，適當的網域名稱，使用 https
+
+#### 12. https
+

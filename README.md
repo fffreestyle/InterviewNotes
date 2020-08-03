@@ -16,3 +16,10 @@
 
 [所有的函式都是閉包：談 JS 中的作用域與 Closure](https://blog.huli.tw/2018/12/08/javascript-closure/)
 
+[[心得] 2019 前端面試心得](https://pttcareer.com/soft_job/M.1571823381.A.B68.html?fbclid=IwAR0rgL80Jp9dzB4hT30Em6Rvl6PBArK-DR3GuAbwnc4PHWlbyizBqDiL8NA)
+
+[循序漸進理解 HTTP Cache 機制](https://blog.techbridge.cc/2017/06/17/cache-introduction/)
+
+[從內部來看瀏覽器到底在做什麼？（Inside look at modern web browser）](https://cythilya.github.io/2018/11/10/inside-look-at-modern-web-browser/)
+
+[該來理解 JavaScript 的原型鍊了](https://blog.techbridge.cc/2017/04/22/javascript-prototype/)

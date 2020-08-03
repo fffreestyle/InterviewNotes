@@ -1,0 +1,5 @@
+#### [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+[[LeetCode] Move Zeroes 移动零](https://www.cnblogs.com/grandyang/p/4822732.html)
+[283.[圖解]Move Zeroes](https://medium.com/@urdreamliu/283-%E5%9C%96%E8%A7%A3-move-zeroes-4da4900f5aac)
+#### [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+[Leetcode 刷題 pattern - Two Pointer](https://blog.techbridge.cc/2019/08/30/leetcode-pattern-two-pointer/)
