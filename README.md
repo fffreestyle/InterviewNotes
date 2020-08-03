@@ -23,3 +23,7 @@
 [從內部來看瀏覽器到底在做什麼？（Inside look at modern web browser）](https://cythilya.github.io/2018/11/10/inside-look-at-modern-web-browser/)
 
 [該來理解 JavaScript 的原型鍊了](https://blog.techbridge.cc/2017/04/22/javascript-prototype/)
+
+[HTTPS/SSL/TLS 概述，整體流程、憑證、數位簽章](https://ithelp.ithome.com.tw/articles/10193095)
+
+[1- Https流程和原理](https://www.jianshu.com/p/b0b6b88fe9fe)
