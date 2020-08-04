@@ -47,3 +47,60 @@ SYN 攻擊：發送大量第一次握手的要求，並且不回復第三次握�
 
 等待 2 MSL 的意義：確保第四次揮手的訊息有傳給 Server 端，並確保沒有 Server 重傳訊息回來
 
+#### 8. 對稱加密與非對稱加密
+
+對稱性加密：使用共同的 key 加密，key 在傳輸過程中被攔截很容易就被破解(AES)
+
+非對稱加密：有 public key 和 private key 使用 public key 加密 private key 解密(反過來亦可)(RSA)
+
+數位簽章：用來確定為本人傳送，將訊息本身 hash 之後再用他的 private key 加密，接收者收到後先用 public key 解出此 hash 再自己計算收到的訊息 hash 比對是否相同，以此證明
+
+#### 9. http cache
+
+http 1.1 : 新 header Cache-Control: max-age=30
+
+max-age=30 表示這個 request 的有效期限為 30 秒
+
+max-age=0 ≒ no-cache 為每次發送 request 的時候去確認是否有新檔案，如果沒有則繼續使用 cache 資料
+
+no-store 為完全不使用 cache 每次 request 都重新取得檔案
+
+#### 10. browser render process
+
+parse HTML 產生 DOM tree ，遇到 \<script\> 會停下並開始下載、解析執行內容，之後開始 parse CSS 產生 render tree 再實際繪製畫面
+
+#### 11. 優化 SEO 
+
+找出關鍵字，優化網頁效能，適當的網域名稱，使用 https
+
+#### 12. https
+
+使用 SSL/TLS 加密
+
+流程:
+
+1. Hello - 客戶端向伺服器端發起請求，提供支援的加密方法種類
+
+2. 憑證交換 - 伺服器提供憑證供客戶端驗證
+
+    驗證方法：1. 此憑證為可信任的機構發行 2. 此憑證是被可信任的機構所認可(使用數位簽章的方式認證)
+3. 認證成功之後做 key 的交換，之後以對稱方式加密通訊
+
+#### 13. CSRF(Cross-site request forgery)
+
+在不同的 domain 底下卻發出使用者本人的 requst
+
+#### 14. XSS (Cross-Site Scripting)
+
+Stored XSS (儲存型) : 資料庫儲存的內容包含可執行的 js 語法
+
+Reflected XSS (反射型) : 網頁上的輸入包含可執行的 js 語法
+
+DOM-Based XSS : JS 執行中可以被插入 js 語法
+
+防範方法 : 
+
+Stored XSS, Reflected XSS 過濾特殊字元
+
+DOM-Based : 避免使用如 dom.innerHTML 之類的會將結果以 HTML 的方式顯示的寫法
+

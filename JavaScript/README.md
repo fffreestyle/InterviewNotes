@@ -76,3 +76,11 @@ e.preventDefault 為取消瀏覽器的預設行為(如點擊超連結不開新�
 這個變數被存在內層 function 理的現象就是 closure
 
 你孫子跟你說他有 10 元 然後隔天他就忘了 於是她來問你說 他有多少錢 你就能跟她說她有10元 這就是closure
+
+#### 11. 原型鍊 *(待討論)
+
+盡頭為 Object.prototype
+
+A.__proto__ 指向 A 的 parent
+
+
