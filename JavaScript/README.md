@@ -83,4 +83,31 @@ e.preventDefault 為取消瀏覽器的預設行為(如點擊超連結不開新�
 
 A.__proto__ 指向 A 的 parent
 
+#### 12. hoisting
 
+var, const, let 都有 hoisting 差別在於 var 宣告之後會初始化為 undefined 而 let, const 並不會被賦予任何值
+
+而 let, const 在 hoisting 跟賦值之前的其間稱為 TDZ(Temporal Dead Zone)
+
+let, const 有 hoisting 的範例
+
+``` js
+var a = 10
+function test(){
+  console.log(a)
+  let a
+}
+test()
+```
+
+會產生 ReferenceError: a is not defined 這就代表 test function 中 a 是有被 hoisting 所以才不會去讀取外部的 var a
+
+#### Property和Attribute
+
+property 指的是 DOM 屬性，是 JS 中可控制的物件
+
+attribute 指的是 HTML 上的元素
+
+attribute 和 property 的資料締結是單向的由 attribute->property
+
+但是改變 attribute 或 property 都會讓畫面更新
