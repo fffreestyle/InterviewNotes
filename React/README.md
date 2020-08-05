@@ -39,3 +39,15 @@ React 使用 virtual-DOM 來透過 JS 控制畫面上顯示的 DOM 元素，並�
 #### useEffect
 
 用來執行一些有 side effects 的時候使用
+
+第一個參數為要執行的 function 回傳值為這個 component 結束要執行的 function
+
+第二個參數為 [] 時代表這個 useEffect 只會執行一次，不傳的時候是每次 component render 時都執行一次
+
+可以實作出原本 component life cycle
+
+componentWillUnmount 為第一個參數的回傳值，代表在這個 component 生命週期結束時執行
+
+componentDidMount 為第二個參數為 [] 時，代表這個功能只會執行一次
+
+componentDidUpdate 為第二個參數非上述 [] 或不傳的情況，會在這個參數產生變化的時候執行
