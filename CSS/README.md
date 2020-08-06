@@ -31,3 +31,17 @@ normalize 留下有用的 default 樣式並盡量保持瀏覽器的顯示一致�
 #### 6. Block Formatting Context
 
 是指這個區塊的布局方式是透過 block 和 inline 的規則呈現
+
+#### 7. flex
+
+分為 container 和 items 由 container 決定內部 items 的對齊方向和排列方向
+
+items 中 flex-grow 為空間有剩餘時候的延展比率 flex-shrink 為空間不夠時的收收縮性  flex-basis 為 item 預設的初始大小
+
+#### 8. media query
+
+分為 media type 和 media feature 用來指定這些條件下要套用的 CSS 可應用在 RWD
+
+media type 指 print, screen 等
+
+media feature 指一些屬性值如 max-width

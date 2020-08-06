@@ -51,3 +51,19 @@ componentWillUnmount 為第一個參數的回傳值，代表在這個 component 
 componentDidMount 為第二個參數為 [] 時，代表這個功能只會執行一次
 
 componentDidUpdate 為第二個參數非上述 [] 或不傳的情況，會在這個參數產生變化的時候執行
+
+#### life cycle
+
+1. Mounting componentWillMount -> render -> componentDidMount
+2. Updating 
+
+    componentWillReceiveProps(第一次元件不會呼叫，更新時，在 render 前呼叫。) -> 
+    
+    shouldComponentUpdate ->
+    
+    componentWillUpdate -> 
+    
+    render -> 
+    
+    componentDidUpdate
+3. Unmounting componentWillUnmount

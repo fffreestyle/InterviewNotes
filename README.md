@@ -37,3 +37,8 @@
 [reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions#table-of-contents)
 
 [Property和Attribute的區別](https://www.itread01.com/p/634120.html)
+
+[2019 新鮮人前端工程師面試全紀錄](https://blog.moli.rocks/2019/02/04/y20190205y/?fbclid=IwAR0XY0N0WqmajuFcCVpJ--zFjHG4MY3KcCHZa9djkpl5SiwUz_wXGWoDeKA)
+
+[[CSS] Media Query](https://pjchender.github.io/2018/06/09/css-media-query/)
+[[React] 生命週期（life cycle）](https://pjchender.github.io/2018/08/29/react-%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F%EF%BC%88life-cycle%EF%BC%89/)
