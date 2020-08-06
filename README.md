@@ -29,3 +29,11 @@
 [1- Https流程和原理](https://www.jianshu.com/p/b0b6b88fe9fe)
 
 [讓我們來談談 CSRF](https://blog.techbridge.cc/2017/02/25/csrf-introduction/)
+
+[我知道你懂 hoisting，可是你了解到多深？](https://blog.techbridge.cc/2018/11/10/javascript-hoisting/)
+
+[Cheat Sheet for React Interview Questions 2020](https://medium.com/@stevenjinyi/study-sheet-for-react-interview-questions-2020-2fe25b8fa316)
+
+[reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions#table-of-contents)
+
+[Property和Attribute的區別](https://www.itread01.com/p/634120.html)

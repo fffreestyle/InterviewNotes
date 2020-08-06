@@ -20,4 +20,14 @@ relative 可以設定 top, left, right, bottom 等屬性根據其他元素位置
 
 fixed 會根據瀏覽器畫面做定位
 
-absolute 根據上層容器做定位，但 static 為例外
+absolute 根據上層容器做定位，但如果上層容器是 static 便會忽略繼續往上尋找
+
+#### 5. restting 和 normalizing
+
+restting 透過消除不同瀏覽器的 default 樣式，來達到在不同瀏覽器都有一樣的畫面
+
+normalize 留下有用的 default 樣式並盡量保持瀏覽器的顯示一致性
+
+#### 6. Block Formatting Context
+
+是指這個區塊的布局方式是透過 block 和 inline 的規則呈現
